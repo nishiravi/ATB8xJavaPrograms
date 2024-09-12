@@ -6,6 +6,8 @@ public class Lab012 {
         boolean a=true;
         boolean $=true;
         boolean _123=true;
+        byte b=123;
+
         System.out.println(_123);
 
     }
