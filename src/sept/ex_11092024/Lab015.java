@@ -5,8 +5,14 @@ public class Lab015 {
 
         byte a=10;
         short b=128;
-        int c=100;
-        long d=14141414141l;
+        int c=1000;
+        long phone_numberd=14141414141L;
+        char grade='A';
+        float e=3.09f;
+        double f=784.225;
+        // Non primitive data types
+        String name="Nishi";
+
     }
 }
 
