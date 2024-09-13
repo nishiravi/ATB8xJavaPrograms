@@ -1,6 +1,8 @@
 package sept.ex_13092024;
 
 public class Lab21_Literals {
+
+
     public static void main(String[] args) {
 
         // Literals-Boolean,Integer,Char
@@ -23,5 +25,8 @@ public class Lab21_Literals {
         System.out.println(name);
         //null literal -supported by non primitive data type
         String s1=null;
+        System.out.println(s1);
+        String uni="\u0041";
+        System.out.println(uni);
     }
 }
