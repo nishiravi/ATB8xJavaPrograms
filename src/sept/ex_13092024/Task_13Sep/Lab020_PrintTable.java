@@ -1,4 +1,4 @@
-package sept.ex_13092024;
+package sept.ex_13092024.Task_13Sep;
 
 public class Lab020_PrintTable {
     public static void main(String[] args) {
