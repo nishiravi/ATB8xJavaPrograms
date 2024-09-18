@@ -1,6 +1,6 @@
 package sept.ex_16092024.Task_16sept;
 
-public class ShortChar_DataType {
+public class Lab36_ShortChar_DataType {
     public static void main(String[] args) {
         short s = 10;
 

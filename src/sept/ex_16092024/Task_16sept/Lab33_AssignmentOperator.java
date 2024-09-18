@@ -1,6 +1,6 @@
 package sept.ex_16092024.Task_16sept;
 
-public class AssignmentOperator {
+public class Lab33_AssignmentOperator {
     public static void main(String[] args) {
 
         int a=10; // assignment operator

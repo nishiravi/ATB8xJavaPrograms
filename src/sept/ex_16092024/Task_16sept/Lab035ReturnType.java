@@ -1,6 +1,6 @@
 package sept.ex_16092024.Task_16sept;
 
-public class ReturnType {
+public class Lab035ReturnType {
     public static void main(String[] args) {
         byte b = 10;
         byte c = 10;
