@@ -13,5 +13,16 @@ public class Lab38_Widening_Narrowing {
         double d=(long)c;
         System.out.println(d);
 
+        //Narrowing -implicit casting;
+        float a1=10.11f;
+        //int b1=a1; // implicit casting invalid
+        //Narrowing -explicit casting
+        float a2=687796.45f;
+        char a3=(char)a2;
+        System.out.println(a3);
+
+
+
+
     }
 }
