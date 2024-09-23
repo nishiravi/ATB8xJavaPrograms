@@ -17,6 +17,8 @@ public class Lab65_Q3A_ConvertToUnits {
                 num=(num*9/5) +32;
                 System.out.println(num + " Fahrenheit");
                 break;
+            default:
+                System.out.println(" invalid input");
 
 
         }
