@@ -26,7 +26,8 @@ public class Lab058_SwitchStatement {
             case 7:
                 System.out.println("Sun" );
                 break;
-
+            default:
+                System.out.println(" Invalid day , we have only 7 days");
 
         }
     }
