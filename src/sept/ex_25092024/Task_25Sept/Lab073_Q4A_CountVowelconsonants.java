@@ -1,6 +1,6 @@
 package sept.ex_25092024.Task_25Sept;
 
-public class Lab073_Q4A_CountVowelConstants {
+public class Lab073_Q4A_CountVowelconsonants {
     public static void main(String[] args) {
         String name="PRAMOD";
         int v=0;
