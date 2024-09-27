@@ -7,22 +7,26 @@ public class Lab070_Q3A_PrimeNumber {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number  :");
         int num = sc.nextInt();
-        for (int i = 1; i <= num; i++) {
+        for (int i = 1; i <= num; i++)
+        {
             boolean isPrime = true;
-            if (i >1) {
-                for (int j = 2; j < i; j++) {
-                    if (i % j == 0) {
+            if (i >1)
+            {
+                for (int j = 2; j < i; j++)
+                {
+                    if (i % j == 0)
+                    {
                         isPrime = false;
                         break;
                     }
 
                 }
                 if (isPrime == true)
-                    System.out.print(i + "  ");
+                    System.out.print(i + " is a prime number ");
                 }
 
-
             }
+
         }
     }
 
