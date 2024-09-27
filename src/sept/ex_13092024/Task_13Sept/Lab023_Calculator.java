@@ -1,4 +1,4 @@
-package sept.ex_13092024.Task_13Sep;
+package sept.ex_13092024.Task_13Sept;
 
 public class Lab023_Calculator {
     public static void main(String[] args) {
