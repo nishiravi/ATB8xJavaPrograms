@@ -22,7 +22,7 @@ public class Lab070_Q3A_PrimeNumber {
 
                 }
                 if (isPrime == true)
-                    System.out.print(i + " is a prime number ");
+                    System.out.println(i + " is a prime number ");
                 }
 
             }
