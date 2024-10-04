@@ -2,11 +2,11 @@ package October;
 
 public class Lab80_Objectcreation {
     public static void main(String[] args) {
-        ATBStudent obj1=new ATBStudent();
-        ATBStudent obj2=new ATBStudent();
-        ATBStudent obj3=new ATBStudent();
-        ATBStudent obj4=new ATBStudent();
-        ATBStudent obj5=new ATBStudent();
+        October.ATBStudent obj1=new October.ATBStudent();
+        October.ATBStudent obj2=new October.ATBStudent();
+        October.ATBStudent obj3=new October.ATBStudent();
+        October.ATBStudent obj4=new October.ATBStudent();
+        October.ATBStudent obj5=new ATBStudent();
         obj1.age=10;
         obj1.eat();
         obj2.age=20;
