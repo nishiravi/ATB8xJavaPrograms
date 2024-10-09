@@ -1,4 +1,4 @@
-package October;
+package October.ex_02102024;
 
 public class ATBStudent extends Object {
 
