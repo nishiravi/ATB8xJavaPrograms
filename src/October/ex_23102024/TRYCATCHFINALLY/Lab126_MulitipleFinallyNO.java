@@ -15,6 +15,7 @@ public class Lab126_MulitipleFinallyNO {
         }
     //    finally { // Multiple Finally block not allowed
             System.out.println(" Finally block executed");
-        }
+       // }
+        System.out.println("LAst statements"); // executed only if the code work without issue
     }
 }
