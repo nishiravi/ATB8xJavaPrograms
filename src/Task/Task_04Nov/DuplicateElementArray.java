@@ -10,13 +10,13 @@ public class DuplicateElementArray {
         HashMap<Integer, Integer> map = new HashMap<>();
         // Iterate through an array to check duplicate item
         for (int num : numbers) {
-            // check for item in the map , and increase the count if its presnet
+            // check for the Key in the map
             if (map.containsKey(num))  // check if the number in array is present as key in the map
             {
                 // if key & num matches then increase the value of that key by 1
                 map.put(num, map.get(num) + 1);
             } else
-                // when key and num doesnt  match, add the item to the map and default value as 1
+                // when key and num doesnt  match, add the item to the map and give default value as 1
                 map.put(num, 1);
         }
         // Iterate and print only the duplicate input

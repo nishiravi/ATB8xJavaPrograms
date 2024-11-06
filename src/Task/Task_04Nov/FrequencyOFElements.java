@@ -12,7 +12,7 @@ public class FrequencyOFElements {
         HashMap<Integer, Integer> map = new HashMap<>();
         // Iterate through an array to check the frequency of each item
         for (int num : numbers) {
-            // check for item in the map , and increase the count if its presnet
+            // check for key in the map
             if (map.containsKey(num))  // check if the number in array is present as key in the map
             {
                 // if key & num matches then increase the value of that key by 1
