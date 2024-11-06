@@ -1,4 +1,4 @@
-package October.ex_30102024.CollectionFramework_Part2.Set;
+package October.ex_30102024.CollectionFramework.Set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -13,8 +13,9 @@ public class Lab127_Set {
         // Classes: Hashset, LinkHashSet, Tree Set
         System.out.println(" using HashSet");
         // used when we just need to iterate over the data
-        // Data is not stored in Order
-        // Data is sorted by default
+        // while inserting Data is not stored in Order
+        // In the output Data is not sorted
+        // we can store null values
         Set a=new HashSet();
         a.add("A");
         a.add("B");
@@ -28,12 +29,14 @@ public class Lab127_Set {
         System.out.println(a);
         System.out.println(" using LinkHashSet");
         // used whenever insertion and deletion is needed
-        // Data is stored in order ,
-        // Data is  not sorted
+        // while inserting Data is stored in order ,
+        // In the output Data is  not sorted
+        // can store nullvalues
         Set b=new LinkedHashSet();
         b.add("A");
         b.add("B");
         b.add("C");
+        b.add("K");
         b.add("D");
         b.add("Z");
         b.add("E");
@@ -43,6 +46,7 @@ public class Lab127_Set {
         System.out.println(" using TreeSet");
         // used when sorting has to be performed
         // Data is sorted by default
+        // cant store null values
         Set c=new TreeSet();
         c.add("A");
         c.add("B");
